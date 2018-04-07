@@ -1,0 +1,19 @@
+面向对象之接口：接口是一个功能的集合也能看作为数据类型，比抽象类更抽象的类，只描述具体方法不加以实现，实现程序的定义和实现分离，优化了程序设计,接口访问的
+的方法皆为方法，不允许其他权限，接口中成员变量必须是常量，固定格式为 public static final 数据类型 变量名 = 值
+
+/*
+*成员方法：全抽象
+*不能定义带有方法的方法体
+*定义抽象方法：固定格式
+*public abstract 返回值类型 方法名字（参数列表）；
+
+*public interface 接口名字{
+  抽象方法1；
+  抽象方法2；
+  抽象方法3；
+  }
+*/
+public interface myInterface{
+
+public static final a = 1;
+public abstract void function();
